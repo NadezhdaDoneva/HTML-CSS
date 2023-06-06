@@ -1,0 +1,21 @@
+article, section{
+    padding: 5px, 15px;
+    background-color: #f2f4c0;
+}
+
+section{
+    font-style: italic;
+}
+
+body{
+    background-color: #e4e978;
+}
+
+section h1, h2{
+   color: #4c7658;
+}
+
+section p{
+    color: #5c6e91;
+}
+
