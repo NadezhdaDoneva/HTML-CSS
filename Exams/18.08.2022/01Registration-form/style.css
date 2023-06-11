@@ -3,5 +3,109 @@ body{
 }
 
 main{
-    
+    background: url("./images/background.png") no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+.container{
+    display: flex;
+    width: 60%;
+    margin: 4rem auto;
+    background-color: white;
+    position: relative;
+    border-radius: 24px;
+}
+
+.right{
+    width: 90%;
+    background: url("./images/form-background.png") no-repeat center center;
+    background-size: cover;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    border-radius: 24px;
+}
+
+.left{
+    z-index: 1;
+    position: relative;
+    width: 60%;
+    padding: 3.75rem 2.5rem;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+}
+
+
+.div-heading{
+    display: flex;
+}
+
+.heading{
+    margin-left: 5rem;
+    margin-bottom: 1.5rem;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.form-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2,1fr);
+    grid-template-areas: "title1 title2"
+    "input1 input2";
+    column-gap: 0.5rem;
+}
+
+.title1{
+    grid-area: title1;
+}
+.title2{
+    grid-area: title2;
+}
+.input1{
+    grid-area: input1;
+}
+.input2{
+    grid-area: input2;
+}
+
+
+.input-field{
+    border-radius: 20px;
+    border: 1px solid gray;
+    width: 200px;
+    height: 40px;
+    width: 100%;
+    padding: 14px;
+}
+
+.title{
+    margin-top: 16px;
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+.check{
+    display: inline-block;
+}
+
+.accept{
+    display: inline-block;
+    margin-bottom: 24px;
+}
+
+.btn{
+    display: block;
+    margin: auto;
+    color: white;
+    background-color: brown;
+    border: 1px solid brown;
+    width: 200px;
+    padding: 10px 20px;
+    border-radius: 24px;
 }
