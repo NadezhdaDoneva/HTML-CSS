@@ -1,0 +1,76 @@
+/* 
+#86d862 - green
+#05a2d3 - blue
+#e0e0df - grey
+*/
+
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    overflow: hidden;
+    background-color: white;
+}
+
+main{
+        width: 100%;
+        height: 93vh;
+    
+        margin-top: 3.33vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+
+.article-info{
+    display: grid;
+    border-radius: 22px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: "img calculator";
+    background-color: white;
+    width: 70%;
+    -webkit-box-shadow: 14px 14px 5px 15px rgba(152,152,152,0.29);
+-moz-box-shadow: 14px 14px 5px 15px rgba(152,152,152,0.29);
+box-shadow: 14px 14px 5px 15px rgba(152,152,152,0.29);
+}
+
+.img{
+    width: 100%;
+    grid-area: img;
+    border-top-left-radius: 22px;
+    border-bottom-left-radius: 22px;
+}
+
+.info{
+    grid-area: calculator;
+    padding: 2.5rem 2.25rem;
+    background-color: #f6f7f8;
+}
+
+.heading{
+    text-align: center;
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 60px;
+}
+
+.btn-div{
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn{
+    width: 194px;
+    height: 40px;
+    background-color: #e0e0df;
+    padding: 1rem 2rem;
+    border: 1px solid black;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+}
+
+.green{
+    background-color: #86d862;
+}
