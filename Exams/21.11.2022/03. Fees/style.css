@@ -1,0 +1,206 @@
+
+/* 
+purple text #53536b
+greeen #3bc971
+blue #5e93c5
+purple #8979de
+*/
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+h1,h2,h3,h4{
+    font-family: 'Montserrat', sans-serif;
+}
+
+header{
+    position: relative;
+    height: 70px;
+    color: white;
+}
+
+.logo{
+    height: 40px;
+    position: absolute;
+    left: 100px;
+    margin-top: 15px;
+}
+
+nav{
+    position: absolute;
+    right: 100px;
+    color: #53536b;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    margin-top: 15px;
+}
+
+.taxes{
+    background-color: #53536b;
+    height: 500px;
+    padding-top: 60px;
+    position: relative;
+}
+
+.taxes h1{
+    text-align: center;
+    color: white;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.container{
+    padding-left: 4rem;
+    padding-right: 4rem;
+    position: absolute;
+    bottom: -40px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 2rem;
+}
+
+.container article{
+    background-color: white;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    border-radius: 8px;
+}
+
+.container article h2{
+    font-size: 22px;
+    margin-top: 2rem;
+    color: #53536b;
+    margin-bottom: 1rem;
+    
+}
+
+.container article p{
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+button{
+    background-color: blueviolet;
+    padding: 1rem 3rem;
+    color: white;
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+.colored-section:first-of-type{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 0px;
+    background-color: #3bc971;
+    align-items: center;
+    color: white;
+    width: 100%;
+    border-radius: 8px;
+}
+
+.colored-section:first-of-type h3{
+    margin-top: 2rem;
+}
+
+.colored-section.blue, .colored-section.purple{
+    background-color: #5e93c5;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+}
+
+.colored-section.purple{
+    background-color: #8979de;
+}
+
+.colored-section.blue h3, .colored-section.purple h3{
+    margin-left: 6rem;
+}
+
+.colored-section.blue p, .colored-section.purple p{
+    margin-left: 3rem;
+}
+
+.divider{
+    height: 40px;
+    width: 10px;
+    color: red;
+   
+}
+
+.where{
+    margin: 8rem;
+}
+
+.where h2{
+    color: #53536b;
+    margin-bottom: 2rem;
+    font-weight: 600;
+}
+
+.where p{
+    color: #53536b;
+    margin-bottom: 3rem;
+}
+
+.table-container{
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+}
+
+.table{
+    display: grid;
+    grid-template-columns: 10fr 1fr 1fr;
+    gap: 3rem;
+    padding: 1rem;
+    
+}
+
+.table:nth-of-type(odd){
+    background-color: #e6e6e6;
+}
+
+.table:nth-of-type(even){
+    background-color: whitesmoke;
+}
+
+.bank{
+    margin-left: 4rem;
+    margin-right: 4rem;
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    margin-bottom: 6rem;
+}
+
+.bank h2{
+    color: #53536b;
+    margin-bottom: 1rem
+}
+
+.bank p:first-of-type{
+    margin-bottom: 1rem;
+}
+
+.postbank{
+    width: 150px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #53536b;
+    height: 50px;
+}
